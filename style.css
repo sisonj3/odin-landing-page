@@ -63,7 +63,7 @@ body {
 }
 
 .sign-up {
-    background: #3992f6;
+    background: #3882f6;
     color: #e5e7eb;
     border-radius: 8px;
     max-width: fit-content;
@@ -128,6 +128,35 @@ body {
     font-weight: bold;
     font-size: 24px;
     align-self: last baseline;
+}
+
+/* Section four */
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    gap: 32px;
+    padding: 32px 64px;
+    border-radius: 16px;
+}
+
+.blue-box-title {
+    font-weight: bold;;
+}
+
+.blue-box-sub {
+    font-size: 12px;
+}
+
+.blue-box .sign-up{
+    border-color: white;
 }
 
 img {
