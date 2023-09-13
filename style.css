@@ -6,6 +6,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #1f2937;
+    gap: 32px;
+    padding-bottom: 32px;
 }
 
 .header {
@@ -15,37 +18,63 @@ body {
     padding-right: 160px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .links {
     display: flex;
     margin-left: auto;
-    padding: 0px;
-    gap: 16px;
 }
 
 .hero {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 32px;
-    gap: 16px;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    gap: 32px;
 }
 
 .one {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    flex: auto;
     gap: 8px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background: #3992f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    max-width: fit-content;
+    padding: 8px 16px;
 }
 
 img {
     height: auto;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 ul {
     list-style-type: none;
+    padding: 0px;
+    gap: 16px;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
