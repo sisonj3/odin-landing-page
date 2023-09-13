@@ -34,6 +34,7 @@ body {
     align-items: center;
     padding-left: 160px;
     padding-right: 160px;
+    padding-bottom: 32px;
     gap: 32px;
 }
 
