@@ -1,0 +1,51 @@
+body {
+    font-family: Roboto;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 8px;
+}
+
+img {
+    height: auto;
+    max-width: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
